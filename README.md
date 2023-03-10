@@ -1,4 +1,5 @@
 # Appointment-System
+Using Java, JavaFX, SQL, SceneBuilder, XML
 #User must sign into application with correct username and password - both valid and invalid attempts will be parsed to a txt file
 #System that allows the user to add a customer, customer is stored in relational database (mySQLworkbench) 
 #User can schedule appointments for customer - validation checks via dates and filled schedules (Cannot schedule during another appointment)
