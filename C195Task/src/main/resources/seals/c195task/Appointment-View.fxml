@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="772.0" prefWidth="1207.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seals.c195task.Controllers.UpdateAppointmentController">
+   <children>
+      <Label layoutX="77.0" layoutY="23.0" prefHeight="64.0" prefWidth="157.0" text="Customers">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="386.0" prefHeight="32.0" prefWidth="151.0" text="Appointments">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="427.0" layoutY="264.0" mnemonicParsing="false" text="Delete Customer">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="260.0" layoutY="264.0" mnemonicParsing="false" text="Update Customer" />
+      <TableView layoutX="104.0" layoutY="80.0" prefHeight="172.0" prefWidth="777.0">
+        <columns>
+          <TableColumn prefWidth="77.0" text="Customer ID" />
+          <TableColumn prefWidth="172.0" text="Customer Name" />
+            <TableColumn prefWidth="203.0" text="Address" />
+            <TableColumn prefWidth="113.0" text="Postal Code" />
+            <TableColumn prefWidth="139.0" text="Phone" />
+            <TableColumn prefWidth="72.0" text="Division ID" />
+        </columns>
+      </TableView>
+      <TableView layoutX="104.0" layoutY="430.0" prefHeight="200.0" prefWidth="1052.0">
+        <columns>
+          <TableColumn prefWidth="105.0" text="Appointment ID" />
+          <TableColumn prefWidth="45.0" text="Title" />
+            <TableColumn prefWidth="99.0" text="Description" />
+            <TableColumn prefWidth="156.0" text="Location" />
+            <TableColumn prefWidth="91.0" text="Contact ID" />
+            <TableColumn prefWidth="111.0" text="Type" />
+            <TableColumn prefWidth="151.0" text="Start Date &amp; Time" />
+            <TableColumn prefWidth="138.0" text="End Date &amp; Time" />
+            <TableColumn prefWidth="88.0" text="Customer ID" />
+            <TableColumn prefWidth="67.0" text="User ID" />
+        </columns>
+      </TableView>
+      <Button layoutX="104.0" layoutY="645.0" mnemonicParsing="false" text="Add Appointment" />
+      <Button layoutX="427.0" layoutY="645.0" mnemonicParsing="false" text="Delete Appointment">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="258.0" layoutY="645.0" mnemonicParsing="false" text="Update Appointment" />
+      <RadioButton layoutX="322.0" layoutY="394.0" mnemonicParsing="false" text="Week" />
+      <RadioButton layoutX="389.0" layoutY="394.0" mnemonicParsing="false" text="Month" />
+      <Label layoutX="260.0" layoutY="394.0" prefHeight="17.0" prefWidth="46.0" text="View By:" />
+      <Button layoutX="104.0" layoutY="264.0" mnemonicParsing="false" text="Add Customer" />
+   </children>
+</AnchorPane>
